@@ -1,6 +1,13 @@
 ﻿namespace IT_Lab1;
 
-public class DataBase
+class DataBase
 {
-    
+    public string dbName;
+    public List<Table> dbTablesList;
+
+    public DataBase(string dbname)
+    {
+        dbName = dbname;
+        dbTablesList = new List<Table>();
+    }
 }
