@@ -1,6 +1,6 @@
 ﻿namespace IT_Lab1;
 
-public class bdType
+abstract class bdType
 {
-    
+    public abstract bool Validation(string value);
 }

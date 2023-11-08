@@ -1,6 +1,11 @@
 ﻿namespace IT_Lab1;
 
-public class bdTypeChar
+class bdTypeChar : bdType
 {
-    
+    public override bool Validation(string value)
+    {
+        char buf;
+        if (char.TryParse(value, out buf)) return true;
+        return false;
+    }
 }

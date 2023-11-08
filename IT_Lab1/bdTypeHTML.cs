@@ -1,6 +1,10 @@
 ﻿namespace IT_Lab1;
 
-public class bdTypeHTML
+class bdTypeHTML : bdType
 {
-    
+    //TODO : implement html type
+    public override bool Validation(string value)
+    {
+        throw new NotImplementedException();
+    }
 }
